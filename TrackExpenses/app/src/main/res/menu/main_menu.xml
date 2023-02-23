@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/expense_add"
+        android:icon="@drawable/add_expense_icon"
+        android:title="@string/add_new_expense"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/expense_sum"
+        android:icon="@drawable/sum_expenses_icon"
+        android:title="@string/current_month_s_expenses_sum"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/calendar"
+        android:icon="@drawable/calendar_icon"
+        android:title="@string/calendar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/expense_sort"
+        android:icon="@drawable/sort_expenses_icon"
+        android:title="@string/sort_expenses"
+        app:showAsAction="always" />
+
+</menu>

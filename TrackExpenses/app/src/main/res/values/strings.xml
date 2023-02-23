@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name"><font size="15">TrackExpenses</font></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name"><b><u>Name</u></b></string>
+    <string name="expense_s_name">Expense\'s name</string>
+    <string name="amount"><b><u>Amount</u></b></string>
+    <string name="expense_s_amount">Expense\'s amount</string>
+    <string name="date"><b><u>Date</u></b></string>
+    <string name="expense_s_date">Format: DD.MM.YYYY or D.M.YYYY</string>
+    <string name="description"><b><u>Description</u></b></string>
+    <string name="expense_s_description">Optional field</string>
+    <string name="save_expense">Save expense</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_new_expense">Add new expense</string>
+    <string name="current_month_s_expenses_sum">Current month\'s expenses sum</string>
+    <string name="sort_expenses">Sort expenses</string>
+    <string name="calendar">Choose Month and Year</string>
+    <string name="expense_description">Expense Description</string>
+    <string name="expense_date">Expense Date</string>
+    <string name="expense_amount">Expense Amount</string>
+    <string name="expense_name"><u>Expense Name</u></string>
+    <string name="edit">Edit</string>
+    <string name="filter_by_date"><b><u>Filter By Date</u></b></string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="filter">Filter</string>
+    <string name="filter_options">Leave month field empty to display expenses by year or leave both fields empty to show all expenses</string>
+    <string name="expense_reminder_title">Expense reminder</string>
+    <string name="expense_reminder_text">Don\'t forget to enter your daily expenses.</string>
+</resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCCC"
+    tools:context=".ExpenseFragAddEdit">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/tvNameAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textColor="#00838F"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edNameAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:autofillHints=""
+            android:backgroundTint="@color/teal_200"
+            android:ems="10"
+            android:hint="@string/expense_s_name"
+            android:inputType="textPersonName"
+            android:minWidth="300dp"
+            android:minHeight="55dp"
+            android:textColor="#00838F"
+            android:textColorHint="#808080"
+            android:textSize="14sp"
+            tools:ignore="LabelFor,TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/tvAmountAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/amount"
+            android:textColor="#00838F"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edAmountAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:autofillHints=""
+            android:backgroundTint="@color/teal_200"
+            android:ems="10"
+            android:hint="@string/expense_s_amount"
+            android:inputType="textPersonName"
+            android:minWidth="300dp"
+            android:minHeight="55dp"
+            android:textColor="#00838F"
+            android:textColorHint="#808080"
+            android:textSize="14sp"
+            tools:ignore="LabelFor,TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/tvDateAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/date"
+            android:textColor="#00838F"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edDateAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:autofillHints=""
+            android:backgroundTint="@color/teal_200"
+            android:ems="10"
+            android:hint="@string/expense_s_date"
+            android:inputType="textPersonName"
+            android:minWidth="300dp"
+            android:minHeight="55dp"
+            android:textColor="#00838F"
+            android:textColorHint="#808080"
+            android:textSize="14sp"
+            tools:ignore="LabelFor,TextContrastCheck,TextFields" />
+
+        <TextView
+            android:id="@+id/tvDescAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/description"
+            android:textColor="#00838F"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edDescAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:autofillHints=""
+            android:backgroundTint="@color/teal_200"
+            android:ems="10"
+            android:hint="@string/expense_s_description"
+            android:inputType="textPersonName"
+            android:minWidth="300dp"
+            android:minHeight="55dp"
+            android:textColor="#00838F"
+            android:textColorHint="#808080"
+            android:textSize="14sp"
+            tools:ignore="LabelFor,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btnSaveExpense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#00BFA5"
+            android:minHeight="60dp"
+            android:text="@string/save_expense"
+            android:textColor="#84FFFF" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#00BFA5"
+            android:minHeight="40dp"
+            android:text="@string/cancel"
+            android:textColor="#84FFFF"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+</FrameLayout>
