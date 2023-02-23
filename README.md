@@ -24,7 +24,7 @@ The menu contains the following functionalities:
 * Android Studio IDE
 
 #### Setup
-All necessary library files to run the project are included.
+APK file is included.
 
 #### Example run
 https://user-images.githubusercontent.com/80578540/221003704-efaaf9e5-b826-42e0-8b41-11799ecc9d31.mp4
