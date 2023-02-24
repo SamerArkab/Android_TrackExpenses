@@ -2,7 +2,6 @@
 
 ### Table of contents
 * [General info](#general-info)
-* [Technologies](#technologies)
 * [Setup](#setup)
 * [Example run](#example-run)
 
@@ -17,11 +16,7 @@ The menu contains the following functionalities:
 * Filter expenses by date. The user has the ability to choose the year, year-month, or leave both fields empty to display all expenses ever added
 * Sort expenses by name, date, or amount. The chosen sorting method is saved using SharedPreferences to allow the expenses to be displayed by that order upon the next launch of the app
 
-A broadcast receiver is used when launching the app, which broadcasts the current month and year, thus, displaying the relevant expenses. Lastly, a foreground service is used as well, which uses another broadcast receiver that sends a daily notifiction to the user at 8 PM as a reminder to enter their daily expenses.
-
-#### Technologies
-* JAVA SE Platform 15 (JDK 15.0.1)
-* Android Studio IDE
+A broadcast receiver is used when launching the app, which broadcasts the current month and year, thus, displaying the relevant expenses. Lastly, a foreground service is used, which uses another broadcast receiver that sends a daily notifiction to the user at 8 PM as a reminder to enter their daily expenses.
 
 #### Setup
 APK file is included.
